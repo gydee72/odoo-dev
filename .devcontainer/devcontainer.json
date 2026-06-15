@@ -1,0 +1,11 @@
+{
+  "name": "Odoo 19 Dev",
+  "image": "odoo:19.0",
+  "forwardPorts": [8069],
+  "portsAttributes": {
+    "8069": {
+      "label": "Odoo",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
