@@ -1,6 +1,8 @@
 {
   "name": "Odoo 19 Dev",
-  "image": "odoo:19.0",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "odoo",
+  "workspaceFolder": "/workspaces/odoo-dev",
   "forwardPorts": [8069],
   "portsAttributes": {
     "8069": {
